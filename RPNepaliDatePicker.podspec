@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'RPNepaliDatePicker'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RPNepaliDatePicker.'
+  s.summary          = 'Simple and customizable RPNepaliDatePicker'
+  s.description   = 'RPNepaliDatePicker is a nepali date picker which is a simple and fully customizable.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,17 +22,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Ramesh Prajapati/RPNepaliDatePicker'
+  s.homepage         = 'https://github.com/rameshpjpti/RPNepaliDatePicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ramesh Prajapati' => 'rameshpjpti@gmail.com' }
-  s.source           = { :git => 'https://github.com/Ramesh Prajapati/RPNepaliDatePicker.git', :tag => s.version.to_s }
+  s.author           = { 'rameshpjpti' => 'rameshpjpti@gmail.com' }
+  s.source           = { :git => 'https://github.com/rameshpjpti/RPNepaliDatePicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.exclude_files = "RPNepaliDatePicker/Classes/*.plist"
+
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'RPNepaliDatePicker/Classes/**/*'
-  
+  s.resource_bundles = {
+    'Resources' => ['RPNepaliDatePicker/Assets/*.png']
+  }
+
+  s.swift_version = '5.0'
+
   # s.resource_bundles = {
   #   'RPNepaliDatePicker' => ['RPNepaliDatePicker/Assets/*.png']
   # }

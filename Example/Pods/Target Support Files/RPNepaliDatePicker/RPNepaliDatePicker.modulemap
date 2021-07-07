@@ -1,0 +1,6 @@
+framework module RPNepaliDatePicker {
+  umbrella header "RPNepaliDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

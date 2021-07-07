@@ -28,12 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C9A714613EEB2DEF8E95F74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1722E7D2778D47F24F4BBDD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C9A714613EEB2DEF8E95F74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1722E7D2778D47F24F4BBDD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1F92569026671FB43FDCBCDB /* Pods-RPNepaliDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPNepaliDatePicker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RPNepaliDatePicker_Tests/Pods-RPNepaliDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		389BFF16A1D75952A8C00049 /* Pods-RPNepaliDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPNepaliDatePicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-RPNepaliDatePicker_Tests/Pods-RPNepaliDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		406127B1B08536AE3B6695F1 /* Pods_RPNepaliDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPNepaliDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6021A54A72800CC577B69E78 /* RPNepaliDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RPNepaliDatePicker.podspec; path = ../RPNepaliDatePicker.podspec; sourceTree = "<group>"; };
+		6021A54A72800CC577B69E78 /* RPNepaliDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RPNepaliDatePicker.podspec; path = ../RPNepaliDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* RPNepaliDatePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPNepaliDatePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				1F92569026671FB43FDCBCDB /* Pods-RPNepaliDatePicker_Tests.debug.xcconfig */,
 				389BFF16A1D75952A8C00049 /* Pods-RPNepaliDatePicker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

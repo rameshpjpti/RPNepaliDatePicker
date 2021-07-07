@@ -1,0 +1,30 @@
+{
+  "name": "RPNepaliDatePicker",
+  "version": "0.1.0",
+  "summary": "Simple and customizable RPNepaliDatePicker",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rameshpjpti/NepaliDatePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rameshpjpti": "rameshpjpti@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rameshpjpti/NepaliDatePicker.git",
+    "tag": "0.1.0"
+  },
+  "exclude_files": "RPNepaliDatePicker/Classes/*.plist",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RPNepaliDatePicker/Classes/**/*",
+  "resource_bundles": {
+    "Resources": [
+      "RPNepaliDatePicker/Assets/*.png"
+    ]
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

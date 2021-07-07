@@ -1,0 +1,16 @@
+PODS:
+  - RPNepaliDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - RPNepaliDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  RPNepaliDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RPNepaliDatePicker: 33861c33d9a5853d2f025df37b78a024560a9eed
+
+PODFILE CHECKSUM: b484e5bd55a52764b5292241ae578421b62a9881
+
+COCOAPODS: 1.10.1
