@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RPNepaliDatePicker_Example' do
+  pod 'RPNepaliDatePicker', :path => '../'
+
+  target 'RPNepaliDatePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
